@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fbda5c;
+}
+
+header {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px 100px;
+}
+
+.haeder-h1 {
+  transform: translateX(-70px);
+  font-size: 50px;
+  font-weight: 100;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.header-h2,
+.header-h3 {
+  font-weight: 5;
+  font-size: 30px;
+  color: rgb(0, 0, 0, 0.6);
+  letter-spacing: 18px;
+}
+.header-h2 {
+  transform: translateY(-10px);
+}
+
+.header-h3 {
+  transform: translateX(-20px);
+}
+
+img {
+  width: 550px;
+  transform: translateY(-70px);
+}
+
+.main-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-h3 {
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Amarelo {
+  font-family: "League Script", cursive;
+  font-size: 60px;
+  color: rgb(255, 238, 2);
+  font-weight: bold;
+  transform: translateY(20px);
+}
+
+.ebook-setembro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.ebookh1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.ebook-h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+
+.sol-ebook {
+  z-index: -1;
+  position: absolute;
+}
+
+.ebook-p {
+  width: 670px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: black;
+}
+
+.ebook-mao2 {
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 40px;
+  transform: translateX(-140px);
+}
+
+.ebook-vc {
+  width: 150px;
+  transform: translateX(-60px);
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.ebook-mao {
+  font-size: 80px;
+}
+
+.bx-heart-circle {
+  transform: translateX(-85px);
+  color: rgb(255, 238, 2, 0.8);
+  font-size: 40px;
+}
+
+.agenda-1 {
+  display: flex;
+  padding: 20px;
+  background-image: linear-gradient(75deg, rgb(254, 222, 62), orange);
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: inset 0px 0px 40px 0 rgb(254, 222, 62), 6px 6px 30px -20px black;
+  transition-duration: 0.3s;
+}
+
+.agenda-1:hover {
+  transform: translateX(-50px);
+}
+
+.dia-4 {
+  background-color: #f0f0f0;
+  width: 70px;
+  height: 70px;
+  border-radius: 13px;
+  margin: 10px 30px 10px 20px;
+  box-shadow: inset 0px 0px 40px 0 #dddbdb, 6px 6px 30px -20px black;
+}
+
+.dia-4-cima {
+  background-color: rgb(207, 10, 10);
+  height: 25px;
+  border-radius: 13px 13px 0 0;
+}
+.dia-4-numero {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  transform: translateY(5px);
+}
+
+.main-ebook {
+  display: flex;
+  margin-top: 120px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ebook-agenda {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 40px 0 #dddbdb, 6px 6px 30px -20px black;
+}
+
+.hora-4 {
+  display: flex;
+  justify-content: flex-end;
+  transform: translateX(-30px);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.agenda-p-ebook {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.setembro-4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ebook-4 {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90px;
+}
+
+.agenda-titulo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(40px);
+}
+
+.agenda-h1 {
+  font-size: 90px;
+  font-family: "Anton", sans-serif;
+}
+
+.agenda-setembro {
+  font-family: "League Script", cursive;
+  font-weight: 600;
+  font-size: 80px;
+  color: red;
+  filter: drop-shadow(0px 0px 4px rgb(255, 0, 106));
+  transform: translateY(-70px);
+}
+
+.agenda-p {
+  background-color: rgb(207, 10, 10);
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  font-size: 18px;
+  font-family: "Anton", sans-serif;
+  transform: translateY(-35px);
+}
+
+.talia {
+  font-family: "Great Vibes", cursive;
+}
+
+.sunflower {
+  width: 120px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto-flor {
+  background-image: linear-gradient(75deg, rgb(249, 234, 205), white);
+  width: 800px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  padding: 40px;
+  letter-spacing: 3px;
+  border-radius: 20px;
+  margin: 20px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 100px;
+  box-shadow: 6px 6px 30px -20px black;
+}
+
+.container {
+  background-image: linear-gradient(75deg, rgb(254, 222, 62), orange);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-footer {
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  display: flex;
+}
+
+.footer-nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  margin-top: 70px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.bxl-facebook-circle,
+.bxl-whatsapp,
+.bx-envelope,
+.bxl-instagram,
+a {
+  transition-duration: 0.3s;
+  color: black;
+}
+
+.bxl-facebook-circle:hover,
+.bxl-whatsapp:hover,
+.bx-envelope:hover,
+.bxl-instagram:hover {
+  scale: 1.4;
+  transform: translateY(-10px);
+}
+
+@media (max-width: 480px) {
+      
+       
+        .main-ebook{
+                display: flex;
+                flex-direction: column;
+        }
+
+        img{
+                width: 400px;
+        }
+        
+        .ebookh1{
+                font-size: 70px;
+        }
+
+        .Amarelo{
+                font-size: 50px;
+                transform: translateY(-10px);
+        }
+
+        .ebook-p{
+                width: 470px;
+        }
+
+        .ebook-mao2{
+                transform: translateX(30px)
+        }
+
+        .agenda-1:hover{
+                transform: translateX(1px);
+        }
+        .texto-flor{
+                width: 450px;
+                font-size: 20px;
+        }
+
+        .titulo-footer{
+                font-size: 20px;
+        }
+
+        .haeder-h,.header-h2,.header-h3{
+                z-index: 1;
+
+        }
+        header{
+                margin-bottom: 80px;
+                width: 474px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+
+        .haeder-h1{
+                width: 474px;
+                transform: translateX(40px);
+        }
+        
+        .header-h3{
+                transform: translateX(10px);
+        }
+        
+}

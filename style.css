@@ -284,8 +284,6 @@ img {
   padding: 40px;
   letter-spacing: 3px;
   border-radius: 20px;
-  margin: 20px;
-  position: relative;
   z-index: 2;
   margin-bottom: 100px;
   box-shadow: 6px 6px 30px -20px black;
@@ -335,6 +333,12 @@ a {
 
 @media (max-width: 480px) {
       
+       body{
+        width: 420px;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+       }
        
         .main-ebook{
                 display: flex;
@@ -342,11 +346,11 @@ a {
         }
 
         img{
-                width: 400px;
+                width: 300px;
         }
         
         .ebookh1{
-                font-size: 70px;
+                font-size: 50px;
         }
 
         .Amarelo{
@@ -355,19 +359,50 @@ a {
         }
 
         .ebook-p{
-                width: 470px;
+                width: 380px;
         }
 
         .ebook-mao2{
                 transform: translateX(30px)
         }
 
+        .agenda-1{
+          width: 370px;
+        }
+        .dia-4-cima{
+          width: 70px;
+        }
+        .ebook-4{
+          width: 220px
+          
+        }
+
+        .agenda-p-ebook,.setembro-4{
+          font-size: 15px;
+        }
+       
+      .agenda-h1,.agenda-setembro{
+        font-size: 70px;
+      }
+      .agenda-1{
+        transform: translateX(3px)
+      }
+
+      .main-texto{
+        width: 100px;
+        transform: translateX(130px);
+
+      }
+
+     
+
         .agenda-1:hover{
                 transform: translateX(1px);
         }
-        .texto-flor{
-                width: 450px;
+        .texto-flor,.main-texto{
                 font-size: 20px;
+                width: 380px;
+                transform: translateX(6px);
         }
 
         .titulo-footer{
@@ -380,19 +415,26 @@ a {
         }
         header{
                 margin-bottom: 80px;
-                width: 474px;
+                width: 274px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transform: translateX(30px);
         }
 
         .haeder-h1{
-                width: 474px;
-                transform: translateX(40px);
+                width: 274px;
+                font-size: 30px;
+                transform: translateX(70px);
         }
         
         .header-h3{
-                transform: translateX(10px);
+                transform: translateX(40px);
+                font-size: 25px;
+        }
+        .header-h2{
+          transform: translateX(50px);
+          font-size: 20px;
         }
         
 }
